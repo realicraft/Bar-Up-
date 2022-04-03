@@ -1,0 +1,24 @@
+- delay the inevitable
+
+- bar that slowly deplets
+- depletion rate increases over time
+- ramps up sharply every 5 minutes
+- upgrades
+- 3 different resources
+- wood, iron, and diamond
+- each is rarer than the last, but also stronger
+
+- wood upgrade: character speed
+- iron upgrade: resource speed
+- diamond upgrade: depletion nerf
+- fourth upgrade (all resourced): random effect
+
+- increase character speed
+- decrease character speed
+- increase resource speed
+- decrease resource speed
+- nerf depletion rate
+- buff depletion rate
+- restore 25% of missing bar
+- remove half of bar
+- nothing
