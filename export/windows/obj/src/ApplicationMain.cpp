@@ -174,7 +174,7 @@ HXLINE( 116)			::ApplicationMain_obj::start(stage);
             	HX_GC_STACKFRAME(&_hx_pos_6fcf922b66429816_30_create)
 HXLINE(  31)		 ::openfl::display::Application app =  ::openfl::display::Application_obj::__alloc( HX_CTX );
 HXLINE(  33)		::ManifestResources_obj::init(config);
-HXLINE(  35)		app->meta->set(HX_("build",2e,db,ea,ba),HX_("143",f0,5b,25,00));
+HXLINE(  35)		app->meta->set(HX_("build",2e,db,ea,ba),HX_("1",31,00,00,00));
 HXLINE(  36)		app->meta->set(HX_("company",3d,15,69,83),HX_("realicraft",75,bd,5b,59));
 HXLINE(  37)		app->meta->set(HX_("file",7c,ce,bb,43),HX_("BarUp",ee,c6,e6,40));
 HXLINE(  38)		app->meta->set(HX_("name",4b,72,ff,48),HX_("Bar Up!",59,74,3c,3a));

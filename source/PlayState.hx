@@ -19,7 +19,7 @@ class PlayState extends FlxState
 	var player:Player;
 	var map:FlxOgmo3Loader;
 	var walls:FlxTilemap;
-	var runtime_timer = new Timer(1 / 60);
+	var runtime_timer = new Timer(17);
 	var runtime:Int = 0;
 	var pickups:FlxTypedGroup<Pickup>;
 	var rng:FlxRandom;
@@ -136,7 +136,7 @@ class PlayState extends FlxState
 
 	function spawnPickup()
 	{
-		if (runtime % pickupSpeed == 0)
+		if (runtime % Std.int(pickupSpeed) == 0)
 		{
 			var px = (rng.int(6, 37) * 16);
 			var py:Int;

@@ -12,6 +12,9 @@
 #ifndef INCLUDED_Player
 #include <Player.h>
 #endif
+#ifndef INCLUDED_Std
+#include <Std.h>
+#endif
 #ifndef INCLUDED_flixel_FlxBasic
 #include <flixel/FlxBasic.h>
 #endif
@@ -88,7 +91,7 @@ HXLINE(  30)		this->diamond = 0;
 HXLINE(  29)		this->metal = 0;
 HXLINE(  28)		this->wood = 0;
 HXLINE(  23)		this->runtime = 0;
-HXLINE(  22)		this->runtime_timer =  ::haxe::Timer_obj::__alloc( HX_CTX ,((Float)0.016666666666666666));
+HXLINE(  22)		this->runtime_timer =  ::haxe::Timer_obj::__alloc( HX_CTX ,( (Float)(17) ));
 HXLINE(  17)		super::__construct(MaxSize);
             	}
 
@@ -198,7 +201,8 @@ HX_DEFINE_DYNAMIC_FUNC1(PlayState_obj,placeEntities,(void))
 
 void PlayState_obj::spawnPickup(){
             	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_139_spawnPickup)
-HXDLIN( 139)		if ((::hx::Mod(this->runtime,this->pickupSpeed) == 0)) {
+HXDLIN( 139)		int _hx_tmp = this->runtime;
+HXDLIN( 139)		if ((::hx::Mod(_hx_tmp,::Std_obj::_hx_int(this->pickupSpeed)) == 0)) {
 HXLINE( 141)			int px = (this->rng->_hx_int(6,37,null()) * 16);
 HXLINE( 142)			int py;
 HXLINE( 143)			if ((px <= 448)) {

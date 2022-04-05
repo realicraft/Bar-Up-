@@ -10506,6 +10506,7 @@
    <depend name="include/Pickup.h"/>
    <depend name="include/PlayState.h"/>
    <depend name="include/Player.h"/>
+   <depend name="include/Std.h"/>
    <depend name="include/flixel/FlxBasic.h"/>
    <depend name="include/flixel/FlxCamera.h"/>
    <depend name="include/flixel/FlxCameraFollowStyle.h"/>
